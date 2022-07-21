@@ -1,0 +1,134 @@
+.container{
+    display: flex;
+    width: 1321px;
+    height: 646px;
+    background-color: #161616;
+    border-radius: 30px;
+    
+   
+}
+.section-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+}
+.banner-text{
+    margin-left: 106px;
+}
+.section-dis{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.banner-pic{
+    width: 581px;
+    height: 613px;
+    left: 801px;
+    top: 83px;
+    
+}
+.btn{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.btn:hover{
+    background-color: green;
+    color: #DD0000;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    width: 312px;
+    height: 312px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #161616;
+}
+.btm2{
+    width: 252px;
+    height: 64px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 20px;
+
+}
+.container2{
+    display: flex;
+    margin-top: 130px;
+}
+.all-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 54px;
+}
+.btm2{
+    font-size: 20px;
+}
+#blogbutton{
+    background-color: #DD0000;
+    color: #FFFFFF;
+}
+.bbtn{
+    cursor: pointer;
+    width: 100px;
+    height: 32px;
+    border-radius: 5px;
+    color: #161616;
+    font-size: 16px;
+    
+}
+.blog{
+    align-items: center;
+}
+
+.icon{
+    display: flex;
+    gap: 70px;
+    margin-top: 0px;
+    margin-bottom: 17px;
+}
+footer{
+    width: 100%;
+    height: 444px;
+    background-color: #161616;
+}
+hr{
+    color: #FFFFFF;
+    width: 1320px;
+    margin-top: 240px;
+}
+.footer-title{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.fot{
+    text-decoration: none;
+    color: #B9B9B9;
+    text-align: center;
+    justify-content: space-evenly;
+    
+}
+.footer-element{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 75px;
+}
